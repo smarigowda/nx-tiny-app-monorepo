@@ -25,8 +25,16 @@
             "tsConfig": "apps/tiny-app/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "apps/tiny-app/src/favicon.ico",
-              "apps/tiny-app/src/assets"
+              {
+                "glob": "favicon.ico",
+                "input": "libs/shared/assets/src",
+                "output": "./"
+              },
+              {
+                "glob": "**/*",
+                "input": "libs/shared/assets/src/assets",
+                "output": "assets"
+              }
             ],
             "styles": ["apps/tiny-app/src/styles.scss"],
             "scripts": []
