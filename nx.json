@@ -19,6 +19,9 @@
     }
   },
   "projects": {
+    "shared-assets": {
+      "tags": ["scope:shared", "type:assets"]
+    },
     "tiny-app": {
       "tags": []
     },
