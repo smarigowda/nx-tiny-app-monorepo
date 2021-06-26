@@ -6,25 +6,7 @@
       "root": "libs/shared/assets",
       "sourceRoot": "libs/shared/assets/src",
       "prefix": "workspace",
-      "architect": {
-        "test": {
-          "builder": "@nrwl/jest:jest",
-          "outputs": ["coverage/libs/shared/assets"],
-          "options": {
-            "jestConfig": "libs/shared/assets/jest.config.js",
-            "passWithNoTests": true
-          }
-        },
-        "lint": {
-          "builder": "@nrwl/linter:eslint",
-          "options": {
-            "lintFilePatterns": [
-              "libs/shared/assets/src/**/*.ts",
-              "libs/shared/assets/src/**/*.html"
-            ]
-          }
-        }
-      }
+      "architect": {}
     },
     "tiny-app": {
       "projectType": "application",
