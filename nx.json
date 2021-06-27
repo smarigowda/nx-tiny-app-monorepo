@@ -22,6 +22,9 @@
     "shared-assets": {
       "tags": ["scope:shared", "type:assets"]
     },
+    "shared-environments": {
+      "tags": ["scope:shared", "type:environments"]
+    },
     "shared-styles": {
       "tags": ["scope:shared", "type:styles"]
     },
