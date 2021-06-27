@@ -8,6 +8,13 @@
       "prefix": "workspace",
       "architect": {}
     },
+    "shared-styles": {
+      "projectType": "library",
+      "root": "libs/shared/styles",
+      "sourceRoot": "libs/shared/styles/src",
+      "prefix": "workspace",
+      "architect": {}
+    },
     "tiny-app": {
       "projectType": "application",
       "root": "apps/tiny-app",
